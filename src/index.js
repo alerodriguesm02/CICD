@@ -24,3 +24,5 @@ app.listen(port, () => {
 module.exports = app;
 
 //Corrigindo bugs por aqui! 👍👍
+
+//Alterações significativas feitas aqui v1.0.2
