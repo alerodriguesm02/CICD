@@ -3,10 +3,10 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
-app.use(express.jso());
+app.use(express.json());
 
 app.get('/api', (req, res) => {
-  res.send('Hello world!');
+  res.send('Tentando um conflito!');
 });
 
 app.get('/api/test', (req, res) => {
